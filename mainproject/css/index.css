@@ -1,0 +1,211 @@
+
+/*
+**************************
+
+Section for body style
+
+**************************
+
+*/
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*
+**************************
+
+Section for Header style
+
+**************************
+
+*/
+header{
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFDE3D;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header a{ text-decoration: none;  color: #333333; }
+
+
+/*
+**************************
+
+Section for Main style
+
+**************************
+
+*/
+main{
+    height: auto;
+    width: 100%;
+}
+
+.content{
+    background-color:  mediumpurple;
+    display: flex;  
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.card{
+    flex-wrap: wrap;
+    width: 46%;
+    height: auto;
+    margin: 1% 2% 0% 2%;
+}
+
+
+/*
+**************************
+
+Section for Kalkulator BMI style
+
+**************************
+
+*/
+
+.left-card{ 
+    font-size: 12.5px;
+    text-align: justify;
+}
+
+ol{
+    padding-left: 5%;
+}
+
+.card-group{
+    position: relative;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+    margin: 10px 0 10px 0;
+    background-color: white;
+}
+.card-group p{padding: 10px;}
+.header-card{
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: #FFDE3D;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-box{
+    width: 75%;
+    margin-left: 12.5%;
+    justify-content: center;
+}
+.p-box{
+    text-align: justify;
+    padding: 10px 10px 5px 10px;
+}
+
+.card-form{
+    padding: 0px 0 0px 0 ;
+}
+
+.form-group{
+    margin: 10px;
+}
+.form-group label{
+    font-weight: bold;
+    margin-right: 25%;
+}
+.form-radio{
+    margin-right: 1%;
+}
+
+.form-input{
+    height: auto;
+    width: 70%;
+    padding: 5px;
+}
+
+::placeholder{
+    color: black;
+    font-size: 12px;
+}
+.form-submit{
+    height: 30px;
+    width: auto;
+    margin-right: 3%;
+    background-color: #0B5ED7;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 14px;
+}
+.form-submit:hover{background-color: #0b459b;}
+.form-reset{
+    height: 30px;
+    width: auto;
+    background-color: #817e7e;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 14px;
+}
+.form-reset:hover{background-color:#aaaaaa;}
+
+/*
+**************************
+
+Section for Result BMI style
+
+**************************
+
+*/
+.right-card{
+    font-size: 12px;
+    text-align: justify;
+    padding: 0px 10px 0 10px;
+}
+
+.hasil{
+    font-size: 15px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+/*
+**************************
+
+Section for Footer style
+
+**************************
+
+*/
+
+footer{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFDE3D;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+
